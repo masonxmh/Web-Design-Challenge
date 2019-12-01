@@ -32,20 +32,20 @@
 }
 /* when dropdown menu is active change color */
 /* .dropdown .dropdown-menu .dropdown-item:active,  */
-.dropdown .dropdown-menu .dropdown-item:hover {
+.dropdown-item:hover {
     background-color: #0bada6 !important;
-    margin-right: 20px !important;
+    /* margin-right: 20px !important; */
   }
 
 /* when other nav-link is active change color */
 .nav-link:hover {
-background-color:grey ;
+background-color:lightgray ;
 margin-right: 5px !important;
 }
 
 /* drop down item font color */
 .dropdown-item {
-    color:black !important;
+    color:black;
   }
 /* toggler color change */
 .navbar-toggler {

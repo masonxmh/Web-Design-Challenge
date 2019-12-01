@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Comparison</title>
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -31,7 +31,7 @@
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
                     aria-haspopup="true" aria-expanded="false">Plots</a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu dropdown-menu-right float-right" style="position:absolute;">
                             <a class="dropdown-item" href="maxTemp.html">Max Temperature</a>
                             <a class="dropdown-item" href="humidity.html">Humidity</a>
                             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
@@ -58,22 +58,22 @@
                 <p>Click on any plot to get an in-depth analysis.</p>
                 <br>    
                 <section class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-lg-6">
                         <h2 class="comp-header">vs. Max Temperature</h2>
                         <a href="maxTemp.html"><img class="comp-image" id="maxT_figure" src="Resources/assets/images/Fig1.png"  alt="maxTemp"></a>
                     </div>    
 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-lg-6">
                         <h2 class="comp-header">vs. Humidity</h2>
                         <a href="humidity.html"><img class="comp-image" id="humidity_figure" src="Resources/assets/images/Fig2.png"  alt="humidity"></a>
                     </div>
                 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-lg-6">
                         <h2 class="comp-header">vs. Cloundiness</h2>
                         <a href="cloudiness.html"><img class="comp-image" id="cloudness_figure" src="Resources/assets/images/Fig3.png"  alt="cloudness" ></a>
                     </div>
                 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-lg-6">
                         <h2 class="comp-header">vs. Wind Speed</h2>
                         <a href="windspeed.html"><img class="comp-image" id="windspeed_figure" src="Resources/assets/images/Fig4.png"  alt="windspeed"></a> 
                     </div>
